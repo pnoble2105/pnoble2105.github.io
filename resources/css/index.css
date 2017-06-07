@@ -1,0 +1,128 @@
+body{
+display: flex;
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+text-align: center;
+justify-content: center;
+}
+
+.header {
+display: flex;
+background-color: black;
+width: 100%;
+height: 69px;
+z-index: 1;
+position: fixed;
+align-items: center;
+border-bottom: 1px seashell solid;
+}
+
+.header img {
+display: block;
+margin-left: 10px;
+height: 50px;
+text-align: center;
+
+}
+
+nav {
+display: block;
+text-align: right;
+align-content: center;
+text-grow: 1;
+height: 66px;
+width: 100%;
+}
+
+nav span {
+display: inline-block;
+padding: 20px 10px;
+}
+
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+  width: 1200px;
+}
+
+.flex-container {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#mission .content {
+  display: block;
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+#featured {display: flex;
+  margin: auto;
+  width: 1000px;
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#featured .content {
+  display: block;
+  background-color: black;
+  width: 100%;
+
+}
+
+.content span {display: inline-block;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+.photos img {
+height: 200px;
+width: 300px;
+margin-top: 10px;
+
+}
+
+#locations h2 {
+  display: block;
+  margin-bottom: 0px;
+}
+
+#locations {display: block;
+  margin: auto;
+  padding-top: 200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  flex-direction: row;
+  align-content: center;
+  height: 500px;
+}
+
+.address span {
+width: 300px;
+margin-right: 40px;
+margin-top: 15px;
+background-color: black;
+}
+
+#footer .contact{display: flex;
+justify-content: center;
+width: 100%;
+}
+
+.contact span {display: block;
+justify-content: center;
+width: 100%;
+}
+
+.contact span {display: block;
+justify-content: center;
+width: 100%;
+}
